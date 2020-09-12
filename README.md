@@ -13,14 +13,12 @@ You can work with any of the three options below (You're free to chose any optio
 * A **python interpreter** and a professional text editor like **VSCode** installed on your computer. You can 
 download the interpreter from [python interpreter](https://python.org) and in the same way try to download [VSCode](https://code.visualstudio.com/).
 
-* An IDE like **PyCharm** which is really great for all type of projects which you might work with it in the future. You can download the community version from [PyCharm](https://www.jetbrains.com/pycharm/)
+* An **IDE** like **PyCharm** which is really great for all type of projects which you might work with it in the future. You can download the community version from [PyCharm](https://www.jetbrains.com/pycharm/)
 
-* Anconda which is an open-source project and it is consider the birthplace of data science and machine learning in Python and R languages. If you're really caring to dive in deep with this field, so try to download [Anaconda](https://www.anaconda.com/products/individual)
+* **Anconda** which is an open-source project and it is consider the birthplace of data science and machine learning in Python and R languages. If you're really caring to dive in deep with this field, so try to download [Anaconda](https://www.anaconda.com/products/individual)
 
-* A Google Colab which is online platform hosted by google allows you to write and execute Python in your browser. i highly recommend
-you to get start with this because at least for this project you don't need to install all the dependencies below cause it comes 
-with all configurations that you need to start coding with python!. You can get start here [Colab](https://colab.research.google.com
-)
+* A **Google Colab** which is online platform hosted by google allows you to write and execute Python in your browser. i highly recommend you to get start with this because at least for this project you don't need to install all the dependencies below cause it comes with all configurations that you need to start coding with python!. You can get start here [Colab](https://colab.research.google.com)
+
 
 ## Dependecies needed to get start with this project:
 
@@ -45,6 +43,7 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
   
   ---
   
+  
   ## Feature Data Analysis:
   
   When i mention the feature data set i simply mean our two features: t-shirt and short. To simplify this operation, i tried to 
@@ -60,5 +59,6 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
   You can you see the image below which is represent the binary values (New data frame for our features):
   
   
+  ![BinaryDataFrame](https://github.com/devali29/Classify-clubs-based-on-their-kit/blob/master/BinaryDataFrame.jpg)
   
   
