@@ -44,3 +44,14 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
   ```pip install ipython```
   
   ---
+  
+  ## Feature Data Analysis:
+  
+  When i mention the feature data set i simply mean our two features: t-shirt and short. To simplify this operation, i tried to 
+  convery the values of each column from string to binary in order to make dealing of the algorthim classifier is super easy with
+  the data values itselef. In abbreviation, pandas lib will do this job for us and create a new data frame with binary data which 
+  every column arranged in an alphabetic order as you can you see the image below:
+  
+  
+  
+  
