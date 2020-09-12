@@ -84,8 +84,9 @@ for example, assume we've the following test inputs below, i'll make everything 
 
 [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1] => divide this list in two sub-lists as below:
 
-[1, 0, 0, 0, 0, 0] ==> This list represent t-shirt column.
-[0, 0, 0, 0, 1] ==> This list represent short column.
+> [1, 0, 0, 0, 0, 0] ==> This list represent t-shirt column.
+
+>[0, 0, 0, 0, 1] ==> This list represent short column.
 
 You can see how easy it is to divide your test data, now let me give an easy way to recognize the color from the binary values:
 for the first column [1, 0, 0, 0, 0, 0] ==> position of 1 represent the first color of the t-shirt column which is **Black**
