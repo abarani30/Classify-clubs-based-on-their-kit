@@ -33,11 +33,11 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
  - **pandas**: It is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool used mainly in data 
  analysis. You can read more about it [here](https://pandas.pydata.org/) and you can install it using the following command:
  
-  ```pip install pandas```
+    ```pip install pandas```
   
  - **pydotplus**: It is used to provides us a graph for our features data after converting it to a binary form (0 and 1). You can install it on your machine using the following command:
  
-  ```pip install pydotplus```
+    ```pip install pydotplus```
   
 - **IPython**: It is used as an optional library only to make our job more interactive by displaying the tree algorithm as tree. You can read more about it [here](https://ipython.readthedocs.io/en/stable/index.html) and also you can install it by using the following command:
 
