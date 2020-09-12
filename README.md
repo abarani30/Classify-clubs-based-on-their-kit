@@ -77,7 +77,8 @@ stored in the first column which is t-shirt and in the second column which is sh
 > t-shirt => (Black, Blue, Red, SkyBlue, White, Yellow) = 6 colors (Keep the same sequence in you mind)
 
 > short => (Black, Blue, Red, SkyBlue, White ) = 5 colors (Also keep the same sequence in you mind)
-> so, the result of our test input will be 6 + 5 = 11 binary values
+
+> The result of our test input will be 6 + 5 = 11 binary values
 
 for example, assume we've the following test inputs below, i'll make everything clear to you now:
 
