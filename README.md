@@ -62,3 +62,46 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
   ![BinaryDataFrame](https://github.com/devali29/Classify-clubs-based-on-their-kit/blob/master/BinaryDataFrame.jpg)
   
   
+  and also you can see our decision tree as tree of nodes in the image below:
+  
+  
+  ![DecisionTreeGraph](https://github.com/devali29/Classify-clubs-based-on-their-kit/blob/master/DecisionTreeGraph.png)
+  
+  
+## How the model predict the output (target)?
+
+Absolutely this a very important part and it is also related to the previous part. As i mentioned before the pandas will give us
+a new data frame which their columns names are arranged in an alphabetic order, for example let us see how many of colurs are
+stored in the first column which is t-shirt and in the second column which is short: 
+
+> t-shirt => (Black, Blue, Red, SkyBlue, White, Yellow) = 6 colors (Keep the same sequence in you mind)
+> short => (Black, Blue, Red, SkyBlue, White ) = 5 colors (Also keep the same sequence in you mind)
+> so, the result of our test input will be 6 + 5 = 11 binary values
+
+for example, assume we've the following test inputs below, i'll make everything clear to you now:
+
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1] => divide this list in two sub-lists as below:
+
+[1, 0, 0, 0, 0, 0] ==> This list represent t-shirt column.
+[0, 0, 0, 0, 1] ==> This list represent short column.
+
+You can see how easy it is to divide your test data, now let me give an easy way to recognize the color from the binary values:
+for the first column [1, 0, 0, 0, 0, 0] ==> position of 1 represent the first color of the t-shirt column which is **Black**
+for the second column [0, 0, 0, 0, 1]   ==> position of 1 represent the last color of the short column which is **White**
+
+And our test data will ask our model to get the club with t-shirt of "Black" color and short of "White" color. Now the answer is according to our old data frame is "Juventus" football club.
+
+**Important**: If your model got a two or more outputs for your test data, then the last one will be the candidate. Also if you didn't specify any colors i mean something like this [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], so the model select the last color from each column and to predict the output it checks the order of each color which color is coming before the other, for example:
+
+test data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] ==> [Yellow, White] ==> According the old data frame "White" is coming before "Yellow",
+so the prediction will be sometimes last club with short white or even before it and the candidate solution will be between one of both
+clubs (Real Madrid or Sevilla) based on our model classifier.
+
+
+
+Download the repo and try to predict with more test data to know more about the algorithm and how it is working properly.
+
+---
+
+
+**My Tip**: At the end, i want to say that don't try to use a decision tree algorithm when you've a lot of related features with a related targets.
