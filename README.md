@@ -50,7 +50,14 @@ I know that this is mentioned in the code but i'm here to explaine briefly each 
   When i mention the feature data set i simply mean our two features: t-shirt and short. To simplify this operation, i tried to 
   convery the values of each column from string to binary in order to make dealing of the algorthim classifier is super easy with
   the data values itselef. In abbreviation, pandas lib will do this job for us and create a new data frame with binary data which 
-  every column arranged in an alphabetic order as you can you see the image below:
+  every column arranged in an alphabetic order and i'm here tried to deal with a basic dataset about (14 instances) only! to make 
+  everything simple and easy in order to enable you to fork this repo and try adding more features and also dealing with a big 
+  datasets even.
+  
+  **Note**: This is the same case when you're trying to deal with a dataset but the difference that you might need to clean the 
+  dataset (Preprocessing Phase) before doing the same code steps.
+  
+  You can you see the image below which is represent the binary values (New data frame for our features):
   
   
   
